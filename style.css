@@ -2127,9 +2127,9 @@ input#email {
 .basket-wrapper-phone-viewPort {
     display: block;
     position: absolute;
-	top: 8px;
+	top: 29px;
 	left: 170px;
-	z-index: 1;
+	z-index: 1;    
 }
 
 .basket-wrapper-computer-ViewPort{

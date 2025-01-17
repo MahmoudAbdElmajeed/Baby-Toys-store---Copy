@@ -251,25 +251,34 @@ margin-left: 8px;
 	color: gray;
 }
 
-    .search-button {
-    width: 48px;
-    height: 48px;
-    border-radius: 55px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background-color: #0F83B2;
-    color: #fff;
-    /* padding: 8px 16px; */
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translateX(5px);
-    width: 35px;
-    height: 35px;
-    }
+.search-button {
+	width: 48px;
+	height: 48px;
+	border-radius: 55px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background-color: #0F83B2;
+	color: #fff;
+	/* padding: 8px 16px; */
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: translateX(5px);
+	width: 35px;
+	height: 35px;
+	background-color: unset;
+}
 
+.search-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.search-button svg path{
+    fill: chocolate
+}
     /* count items on cart icon */
 
     .basket-wrapper-phone-viewPort{
@@ -1834,6 +1843,7 @@ transition: all 0.8s ease;
     right: 4px;
 	height: 100%;
 	background-color: darkorchid;
+    background-color: unset;
 }
 
 .search-bar {
@@ -2521,7 +2531,7 @@ input#email {
 
 /* Banner section */
 .banner-container {
-	width: 300px;
+	/* width: 300px; */
 	flex-direction: column;
 }
 

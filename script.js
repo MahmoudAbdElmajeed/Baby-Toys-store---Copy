@@ -151,11 +151,14 @@ let xBtn = document.querySelector(".close-btn");
 let humburgerMenu = document.querySelector(".hamburger-menu-container");
 let htmlEl = document.querySelector("html");
 
-let isClosed = false; // Flag to track translation state
+let isClosed = true; // Flag to track translation state
+
+// Set initial state of the menu
+humburgerMenu.style.transform = "translateX(139%)"; // Menu is initially closed
 
 //1- open side menu
 humburgerBtn.addEventListener("click", () => {
-    isClosed = !isClosed; // Toggle translate state.
+    isClosed = isClosed; // Toggle translate state.
     if (isClosed) {
         humburgerMenu.style.transform = "translateX(0%)"; // Now the menu opened
         xBtn.style.display = "flex";
@@ -409,19 +412,6 @@ basketBtn.forEach((btn) => {
 
 //============
 
-// let LikeIcons = document.querySelectorAll('.like-icon');
-// function toggleLike(event) {
-//     if (event.target.tagName.toLowerCase() === 'path') {
-//         event.target.classList.toggle('like-icon-active');
-//     }
-// }
-
-// // Add event listeners to all like icons
-// document.querySelectorAll('.like-and-basket-wrapper').forEach(icon => {
-//     icon.addEventListener('click', toggleLike);
-// });
-
-
 function toggleLike(event) {
     // Check if the clicked element is an SVG or a child of the SVG
     let target = event.target.closest('.like-icon');
@@ -438,19 +428,19 @@ document.querySelectorAll('.like-and-basket-wrapper').forEach(wrapper => {
     wrapper.addEventListener('click', toggleLike);
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-    const hamburgerBtn = document.querySelector('.hamburger-btn-container');
-    const hamburgerMenu = document.querySelector('.hamburger-menu-container');
-    const closeBtn = document.querySelector('.close-btn');
+// document.addEventListener('DOMContentLoaded', () => {
+//     const hamburgerBtn = document.querySelector('.hamburger-btn-container');
+//     const hamburgerMenu = document.querySelector('.hamburger-menu-container');
+//     const closeBtn = document.querySelector('.close-btn');
 
-    hamburgerBtn.addEventListener('click', () => {
-        hamburgerMenu.classList.add('active');
-    });
+//     hamburgerBtn.addEventListener('click', () => {
+//         hamburgerMenu.classList.add('active');
+//     });
 
-    closeBtn.addEventListener('click', () => {
-        hamburgerMenu.classList.remove('active');
-    });
-});
+//     closeBtn.addEventListener('click', () => {
+//         hamburgerMenu.classList.remove('active');
+//     });
+// });
 
 
 

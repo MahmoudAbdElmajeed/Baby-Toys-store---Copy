@@ -213,49 +213,49 @@ let products = [
             'id': '1',
             'name': 'ABC cubes',
             'price': 120.00,
-            'image': '/imgs/image 11_product1.png'
+            'image': 'imgs/image 11_product1.png'
         },
         {
             'id': '2',
             'name': 'Unicorn horse',
             'price': 150.00,
-            'image': '/imgs/image 11_product2.png'
+            'image': 'imgs/image 11_product2.png'
         },
         {
             'id': '3',
             'name': 'Jounior ring',
             'price': 100.00,
-            'image': '/imgs/image 11_product3.png'
+            'image': 'imgs/image 11_product3.png'
         },
         {
             'id': '4',
             'name': 'Donkey toy',
             'price': 130.00,
-            'image': '/imgs/image 11_product4.png'
+            'image': 'imgs/image 11_product4.png'
         },
         {
             'id': '5',
             'name': 'Mario car',
             'price': 200.00,
-            'image': '/imgs/image 11_product5.png'
+            'image': 'imgs/image 11_product5.png'
         },
         {
             'id': '6',
             'name': 'Wooden dog',
             'price': 140.00,
-            'image': '/imgs/image 11_product6.png'
+            'image': 'imgs/image 11_product6.png'
         },
         {
             'id': '7',
             'name': 'Wooden bicycle',
             'price': 140.00,
-            'image': '/imgs/image 11_product7.png'
+            'image': 'imgs/image 11_product7.png'
         },
         {
             'id': '8',
             'name': 'Baby car',
             'price': 120.00,
-            'image': '/imgs/image 11_product8.png'
+            'image': 'imgs/image 11_product8.png'
         },
     ];
 
